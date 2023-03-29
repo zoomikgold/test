@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+.element {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+h1 {
+  text-stroke: 2px black; 
+  -webkit-text-stroke: 2px black;
+  color: #dc143c;
+  font-size: 4rem;
+}
+
+p {
+  font-weight: bold;
+  color: #000;
+  line-height: 1.5;
+}
+
+li {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: #dc143c;
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.2em;
+}
